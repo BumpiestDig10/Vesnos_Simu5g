@@ -1,0 +1,334 @@
+14:20:08 **** Incremental Build of configuration debug for project VESNOS ****
+make MODE=debug all 
+cd src && make
+make[1]: Entering directory '/home/vesnos/Desktop/Vesnos_Simu5g/VESNOS/src'
+mobility/TraCIMobility.cc
+In file included from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/cobject.h:26:0,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/cnamedobject.h:23,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/cownedobject.h:23,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/carray.h:19,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled_debug.h:1,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/INETDefs.h:25,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/ModuleAccess.h:21,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/base/MobilityBase.h:25,
+                 from ./mobility/TraCIMobility.h:29,
+                 from mobility/TraCIMobility.cc:25:
+mobility/TraCIMobility.cc: In function ‘omnetpp::cObject* VENTOS::__factoryfunc_33()’:
+mobility/TraCIMobility.cc:33:23: error: invalid new-expression of abstract class type ‘VENTOS::TraCIMobilityMod’
+ Define_Module(VENTOS::TraCIMobilityMod);
+                       ^
+In file included from mobility/TraCIMobility.cc:25:0:
+./mobility/TraCIMobility.h:54:7: note:   because the following virtual functions are pure within ‘VENTOS::TraCIMobilityMod’:
+ class TraCIMobilityMod : public inet::MobilityBase
+       ^~~~~~~~~~~~~~~~
+In file included from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/base/MobilityBase.h:30:0,
+                 from ./mobility/TraCIMobility.h:29,
+                 from mobility/TraCIMobility.cc:25:
+/home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/contract/IMobility.h:69:19: note: 	virtual inet::Coord inet::IMobility::getCurrentPosition()
+     virtual Coord getCurrentPosition() = 0;
+                   ^~~~~~~~~~~~~~~~~~
+/home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/contract/IMobility.h:74:19: note: 	virtual inet::Coord inet::IMobility::getCurrentVelocity()
+     virtual Coord getCurrentVelocity() = 0;
+                   ^~~~~~~~~~~~~~~~~~
+/home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/contract/IMobility.h:79:19: note: 	virtual inet::Coord inet::IMobility::getCurrentAcceleration()
+     virtual Coord getCurrentAcceleration() = 0;
+                   ^~~~~~~~~~~~~~~~~~~~~~
+/home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/contract/IMobility.h:84:24: note: 	virtual inet::Quaternion inet::IMobility::getCurrentAngularPosition()
+     virtual Quaternion getCurrentAngularPosition() = 0;
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/contract/IMobility.h:89:24: note: 	virtual inet::Quaternion inet::IMobility::getCurrentAngularVelocity()
+     virtual Quaternion getCurrentAngularVelocity() = 0;
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/contract/IMobility.h:94:24: note: 	virtual inet::Quaternion inet::IMobility::getCurrentAngularAcceleration()
+     virtual Quaternion getCurrentAngularAcceleration() = 0;
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ./mobility/TraCIMobility.h:29:0,
+                 from mobility/TraCIMobility.cc:25:
+/home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/base/MobilityBase.h:129:18: note: 	virtual void inet::MobilityBase::handleSelfMessage(omnetpp::cMessage*)
+     virtual void handleSelfMessage(cMessage *msg) = 0;
+                  ^~~~~~~~~~~~~~~~~
+mobility/TraCIMobility.cc: At global scope:
+mobility/TraCIMobility.cc:35:121: error: cast from ‘const char*’ to ‘omnetpp::simsignal_t {aka int}’ loses precision [-fpermissive]
+ const inet::simsignal_t TraCIMobilityMod::parkingStateChangedSignal = inet::simsignal_t(TRACI_SIGNAL_PARKING_CHANGE_NAME);
+                                                                                                                         ^
+mobility/TraCIMobility.cc: In member function ‘virtual void VENTOS::TraCIMobilityMod::initialize(int)’:
+mobility/TraCIMobility.cc:52:3: error: ‘move’ was not declared in this scope
+   move.setStart(nextPos);
+   ^~~~
+mobility/TraCIMobility.cc:52:3: note: suggested alternative:
+In file included from /usr/include/c++/7/deque:64:0,
+                 from /usr/include/c++/7/stack:60,
+                 from /usr/include/boost/filesystem/operations.hpp:42,
+                 from /usr/include/boost/filesystem.hpp:17,
+                 from ./traci/TraCICommands.h:36,
+                 from ./mobility/TraCIMobility.h:30,
+                 from mobility/TraCIMobility.cc:25:
+/usr/include/c++/7/bits/stl_deque.h:424:5: note:   ‘std::move’
+     move(_Deque_iterator<_Tp, _Tp&, _Tp*> __first,
+     ^~~~
+mobility/TraCIMobility.cc:53:29: error: ‘Coord’ was not declared in this scope
+   move.setDirectionByVector(Coord(cos(angle), -sin(angle)));
+                             ^~~~~
+mobility/TraCIMobility.cc:53:29: note: suggested alternative:
+In file included from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/geometry/common/RotationMatrix.h:21:0,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/geometry/common/CanvasProjection.h:21,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/base/MobilityBase.h:27,
+                 from ./mobility/TraCIMobility.h:29,
+                 from mobility/TraCIMobility.cc:25:
+/home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/geometry/common/Coord.h:36:16: note:   ‘inet::Coord’
+ class INET_API Coord
+                ^~~~~
+mobility/TraCIMobility.cc: At global scope:
+mobility/TraCIMobility.cc:80:69: error: ‘Coord’ does not name a type; did you mean ‘Color’?
+ void TraCIMobilityMod::preInitialize(std::string external_id, const Coord& position, std::string road_id, double speed, double angle)
+                                                                     ^~~~~
+                                                                     Color
+mobility/TraCIMobility.cc:80:6: error: prototype for ‘void VENTOS::TraCIMobilityMod::preInitialize(std::__cxx11::string, const int&, std::__cxx11::string, double, double)’ does not match any in class ‘VENTOS::TraCIMobilityMod’
+ void TraCIMobilityMod::preInitialize(std::string external_id, const Coord& position, std::string road_id, double speed, double angle)
+      ^~~~~~~~~~~~~~~~
+In file included from mobility/TraCIMobility.cc:25:0:
+./mobility/TraCIMobility.h:84:18: error: candidate is: virtual void VENTOS::TraCIMobilityMod::preInitialize(std::__cxx11::string, const inet::Coord&, std::__cxx11::string, double, double)
+     virtual void preInitialize(std::string, const inet::Coord&, std::string = "", double = -1, double = -1);
+                  ^~~~~~~~~~~~~
+mobility/TraCIMobility.cc:101:43: error: ‘Coord’ does not name a type; did you mean ‘Color’?
+ void TraCIMobilityMod::nextPosition(const Coord& position, std::string road_id, double speed, double angle, VehicleSignal vehSignals)
+                                           ^~~~~
+                                           Color
+mobility/TraCIMobility.cc:101:6: error: prototype for ‘void VENTOS::TraCIMobilityMod::nextPosition(const int&, std::__cxx11::string, double, double, VENTOS::VehicleSignal)’ does not match any in class ‘VENTOS::TraCIMobilityMod’
+ void TraCIMobilityMod::nextPosition(const Coord& position, std::string road_id, double speed, double angle, VehicleSignal vehSignals)
+      ^~~~~~~~~~~~~~~~
+In file included from mobility/TraCIMobility.cc:25:0:
+./mobility/TraCIMobility.h:85:18: error: candidate is: virtual void VENTOS::TraCIMobilityMod::nextPosition(const inet::Coord&, std::__cxx11::string, double, double, VENTOS::VehicleSignal)
+     virtual void nextPosition(const inet::Coord&, std::string = "", double = -1, double = -1, VehicleSignal = VEH_SIGNAL_UNDEF);
+                  ^~~~~~~~~~~~
+mobility/TraCIMobility.cc: In member function ‘virtual void VENTOS::TraCIMobilityMod::changePosition()’:
+mobility/TraCIMobility.cc:121:23: error: expected primary-expression before ‘.’ token
+  nextPos.z = IMobility.getCurrentPosition().z;
+                       ^
+mobility/TraCIMobility.cc:125:2: error: ‘move’ was not declared in this scope
+  move.setStart(Coord(nextPos.x, nextPos.y, move.getCurrentPosition().z)); // keep z position
+  ^~~~
+mobility/TraCIMobility.cc:125:2: note: suggested alternative:
+In file included from /usr/include/c++/7/deque:64:0,
+                 from /usr/include/c++/7/stack:60,
+                 from /usr/include/boost/filesystem/operations.hpp:42,
+                 from /usr/include/boost/filesystem.hpp:17,
+                 from ./traci/TraCICommands.h:36,
+                 from ./mobility/TraCIMobility.h:30,
+                 from mobility/TraCIMobility.cc:25:
+/usr/include/c++/7/bits/stl_deque.h:424:5: note:   ‘std::move’
+     move(_Deque_iterator<_Tp, _Tp&, _Tp*> __first,
+     ^~~~
+mobility/TraCIMobility.cc:125:16: error: ‘Coord’ was not declared in this scope
+  move.setStart(Coord(nextPos.x, nextPos.y, move.getCurrentPosition().z)); // keep z position
+                ^~~~~
+mobility/TraCIMobility.cc:125:16: note: suggested alternative:
+In file included from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/geometry/common/RotationMatrix.h:21:0,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/geometry/common/CanvasProjection.h:21,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/base/MobilityBase.h:27,
+                 from ./mobility/TraCIMobility.h:29,
+                 from mobility/TraCIMobility.cc:25:
+/home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/geometry/common/Coord.h:36:16: note:   ‘inet::Coord’
+ class INET_API Coord
+                ^~~~~
+mobility/TraCIMobility.cc:133:2: error: ‘updatePosition’ was not declared in this scope
+  updatePosition();
+  ^~~~~~~~~~~~~~
+mobility/TraCIMobility.cc:133:2: note: suggested alternative: ‘nextPosition’
+  updatePosition();
+  ^~~~~~~~~~~~~~
+  nextPosition
+mobility/TraCIMobility.cc: In member function ‘virtual void VENTOS::TraCIMobilityMod::fixIfHostGetsOutside()’:
+mobility/TraCIMobility.cc:208:2: error: ‘Coord’ was not declared in this scope
+  Coord pos = move.getStartPos();
+  ^~~~~
+mobility/TraCIMobility.cc:208:2: note: suggested alternative:
+In file included from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/geometry/common/RotationMatrix.h:21:0,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/geometry/common/CanvasProjection.h:21,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/base/MobilityBase.h:27,
+                 from ./mobility/TraCIMobility.h:29,
+                 from mobility/TraCIMobility.cc:25:
+/home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/geometry/common/Coord.h:36:16: note:   ‘inet::Coord’
+ class INET_API Coord
+                ^~~~~
+mobility/TraCIMobility.cc:209:8: error: expected ‘;’ before ‘dummy’
+  Coord dummy = Coord::ZERO;
+        ^~~~~
+mobility/TraCIMobility.cc:212:19: error: ‘unsigned int omnetpp::cOwnedObject::pos’ is private within this context
+  bool outsideX = (pos.x < 0) || (pos.x >= playgroundSizeX());
+                   ^~~
+In file included from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/carray.h:19:0,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled_debug.h:1,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/INETDefs.h:25,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/ModuleAccess.h:21,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/base/MobilityBase.h:25,
+                 from ./mobility/TraCIMobility.h:29,
+                 from mobility/TraCIMobility.cc:25:
+/home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/cownedobject.h:114:18: note: declared private here
+     unsigned int pos;  // used only when owner is a cDefaultList
+                  ^~~
+mobility/TraCIMobility.cc:212:23: error: request for member ‘x’ in ‘((VENTOS::TraCIMobilityMod*)this)->VENTOS::TraCIMobilityMod::<anonymous>.inet::MobilityBase::<anonymous>.omnetpp::cSimpleModule::<anonymous>.omnetpp::cModule::<anonymous>.omnetpp::cComponent::<anonymous>.omnetpp::cDefaultList::<anonymous>.omnetpp::cNoncopyableOwnedObject::<anonymous>.omnetpp::cOwnedObject::pos’, which is of non-class type ‘unsigned int’
+  bool outsideX = (pos.x < 0) || (pos.x >= playgroundSizeX());
+                       ^
+mobility/TraCIMobility.cc:212:34: error: ‘unsigned int omnetpp::cOwnedObject::pos’ is private within this context
+  bool outsideX = (pos.x < 0) || (pos.x >= playgroundSizeX());
+                                  ^~~
+In file included from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/carray.h:19:0,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled_debug.h:1,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/INETDefs.h:25,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/ModuleAccess.h:21,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/base/MobilityBase.h:25,
+                 from ./mobility/TraCIMobility.h:29,
+                 from mobility/TraCIMobility.cc:25:
+/home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/cownedobject.h:114:18: note: declared private here
+     unsigned int pos;  // used only when owner is a cDefaultList
+                  ^~~
+mobility/TraCIMobility.cc:212:38: error: request for member ‘x’ in ‘((VENTOS::TraCIMobilityMod*)this)->VENTOS::TraCIMobilityMod::<anonymous>.inet::MobilityBase::<anonymous>.omnetpp::cSimpleModule::<anonymous>.omnetpp::cModule::<anonymous>.omnetpp::cComponent::<anonymous>.omnetpp::cDefaultList::<anonymous>.omnetpp::cNoncopyableOwnedObject::<anonymous>.omnetpp::cOwnedObject::pos’, which is of non-class type ‘unsigned int’
+  bool outsideX = (pos.x < 0) || (pos.x >= playgroundSizeX());
+                                      ^
+mobility/TraCIMobility.cc:212:43: error: ‘playgroundSizeX’ was not declared in this scope
+  bool outsideX = (pos.x < 0) || (pos.x >= playgroundSizeX());
+                                           ^~~~~~~~~~~~~~~
+mobility/TraCIMobility.cc:213:19: error: ‘unsigned int omnetpp::cOwnedObject::pos’ is private within this context
+  bool outsideY = (pos.y < 0) || (pos.y >= playgroundSizeY());
+                   ^~~
+In file included from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/carray.h:19:0,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled_debug.h:1,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/INETDefs.h:25,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/ModuleAccess.h:21,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/base/MobilityBase.h:25,
+                 from ./mobility/TraCIMobility.h:29,
+                 from mobility/TraCIMobility.cc:25:
+/home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/cownedobject.h:114:18: note: declared private here
+     unsigned int pos;  // used only when owner is a cDefaultList
+                  ^~~
+mobility/TraCIMobility.cc:213:23: error: request for member ‘y’ in ‘((VENTOS::TraCIMobilityMod*)this)->VENTOS::TraCIMobilityMod::<anonymous>.inet::MobilityBase::<anonymous>.omnetpp::cSimpleModule::<anonymous>.omnetpp::cModule::<anonymous>.omnetpp::cComponent::<anonymous>.omnetpp::cDefaultList::<anonymous>.omnetpp::cNoncopyableOwnedObject::<anonymous>.omnetpp::cOwnedObject::pos’, which is of non-class type ‘unsigned int’
+  bool outsideY = (pos.y < 0) || (pos.y >= playgroundSizeY());
+                       ^
+mobility/TraCIMobility.cc:213:34: error: ‘unsigned int omnetpp::cOwnedObject::pos’ is private within this context
+  bool outsideY = (pos.y < 0) || (pos.y >= playgroundSizeY());
+                                  ^~~
+In file included from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/carray.h:19:0,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled_debug.h:1,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/INETDefs.h:25,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/ModuleAccess.h:21,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/base/MobilityBase.h:25,
+                 from ./mobility/TraCIMobility.h:29,
+                 from mobility/TraCIMobility.cc:25:
+/home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/cownedobject.h:114:18: note: declared private here
+     unsigned int pos;  // used only when owner is a cDefaultList
+                  ^~~
+mobility/TraCIMobility.cc:213:38: error: request for member ‘y’ in ‘((VENTOS::TraCIMobilityMod*)this)->VENTOS::TraCIMobilityMod::<anonymous>.inet::MobilityBase::<anonymous>.omnetpp::cSimpleModule::<anonymous>.omnetpp::cModule::<anonymous>.omnetpp::cComponent::<anonymous>.omnetpp::cDefaultList::<anonymous>.omnetpp::cNoncopyableOwnedObject::<anonymous>.omnetpp::cOwnedObject::pos’, which is of non-class type ‘unsigned int’
+  bool outsideY = (pos.y < 0) || (pos.y >= playgroundSizeY());
+                                      ^
+mobility/TraCIMobility.cc:213:43: error: ‘playgroundSizeY’ was not declared in this scope
+  bool outsideY = (pos.y < 0) || (pos.y >= playgroundSizeY());
+                                           ^~~~~~~~~~~~~~~
+mobility/TraCIMobility.cc:214:20: error: ‘world’ was not declared in this scope
+  bool outsideZ = (!world->use2D()) && ((pos.z < 0) || (pos.z >= playgroundSizeZ()));
+                    ^~~~~
+mobility/TraCIMobility.cc:214:41: error: ‘unsigned int omnetpp::cOwnedObject::pos’ is private within this context
+  bool outsideZ = (!world->use2D()) && ((pos.z < 0) || (pos.z >= playgroundSizeZ()));
+                                         ^~~
+In file included from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/carray.h:19:0,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled_debug.h:1,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/INETDefs.h:25,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/ModuleAccess.h:21,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/base/MobilityBase.h:25,
+                 from ./mobility/TraCIMobility.h:29,
+                 from mobility/TraCIMobility.cc:25:
+/home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/cownedobject.h:114:18: note: declared private here
+     unsigned int pos;  // used only when owner is a cDefaultList
+                  ^~~
+mobility/TraCIMobility.cc:214:45: error: request for member ‘z’ in ‘((VENTOS::TraCIMobilityMod*)this)->VENTOS::TraCIMobilityMod::<anonymous>.inet::MobilityBase::<anonymous>.omnetpp::cSimpleModule::<anonymous>.omnetpp::cModule::<anonymous>.omnetpp::cComponent::<anonymous>.omnetpp::cDefaultList::<anonymous>.omnetpp::cNoncopyableOwnedObject::<anonymous>.omnetpp::cOwnedObject::pos’, which is of non-class type ‘unsigned int’
+  bool outsideZ = (!world->use2D()) && ((pos.z < 0) || (pos.z >= playgroundSizeZ()));
+                                             ^
+mobility/TraCIMobility.cc:214:56: error: ‘unsigned int omnetpp::cOwnedObject::pos’ is private within this context
+  bool outsideZ = (!world->use2D()) && ((pos.z < 0) || (pos.z >= playgroundSizeZ()));
+                                                        ^~~
+In file included from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/carray.h:19:0,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled_debug.h:1,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/INETDefs.h:25,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/ModuleAccess.h:21,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/base/MobilityBase.h:25,
+                 from ./mobility/TraCIMobility.h:29,
+                 from mobility/TraCIMobility.cc:25:
+/home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/cownedobject.h:114:18: note: declared private here
+     unsigned int pos;  // used only when owner is a cDefaultList
+                  ^~~
+mobility/TraCIMobility.cc:214:60: error: request for member ‘z’ in ‘((VENTOS::TraCIMobilityMod*)this)->VENTOS::TraCIMobilityMod::<anonymous>.inet::MobilityBase::<anonymous>.omnetpp::cSimpleModule::<anonymous>.omnetpp::cModule::<anonymous>.omnetpp::cComponent::<anonymous>.omnetpp::cDefaultList::<anonymous>.omnetpp::cNoncopyableOwnedObject::<anonymous>.omnetpp::cOwnedObject::pos’, which is of non-class type ‘unsigned int’
+  bool outsideZ = (!world->use2D()) && ((pos.z < 0) || (pos.z >= playgroundSizeZ()));
+                                                            ^
+mobility/TraCIMobility.cc:214:65: error: ‘playgroundSizeZ’ was not declared in this scope
+  bool outsideZ = (!world->use2D()) && ((pos.z < 0) || (pos.z >= playgroundSizeZ()));
+                                                                 ^~~~~~~~~~~~~~~
+mobility/TraCIMobility.cc:216:104: error: request for member ‘x’ in ‘((VENTOS::TraCIMobilityMod*)this)->VENTOS::TraCIMobilityMod::<anonymous>.inet::MobilityBase::<anonymous>.omnetpp::cSimpleModule::<anonymous>.omnetpp::cModule::<anonymous>.omnetpp::cComponent::<anonymous>.omnetpp::cDefaultList::<anonymous>.omnetpp::cNoncopyableOwnedObject::<anonymous>.omnetpp::cOwnedObject::pos’, which is of non-class type ‘unsigned int’
+      throw omnetpp::cRuntimeError("Tried moving host to (%f, %f) which is outside the playground", pos.x, pos.y);
+                                                                                                        ^
+mobility/TraCIMobility.cc:216:111: error: request for member ‘y’ in ‘((VENTOS::TraCIMobilityMod*)this)->VENTOS::TraCIMobilityMod::<anonymous>.inet::MobilityBase::<anonymous>.omnetpp::cSimpleModule::<anonymous>.omnetpp::cModule::<anonymous>.omnetpp::cComponent::<anonymous>.omnetpp::cDefaultList::<anonymous>.omnetpp::cNoncopyableOwnedObject::<anonymous>.omnetpp::cOwnedObject::pos’, which is of non-class type ‘unsigned int’
+      throw omnetpp::cRuntimeError("Tried moving host to (%f, %f) which is outside the playground", pos.x, pos.y);
+                                                                                                               ^
+mobility/TraCIMobility.cc:216:100: error: ‘unsigned int omnetpp::cOwnedObject::pos’ is private within this context
+      throw omnetpp::cRuntimeError("Tried moving host to (%f, %f) which is outside the playground", pos.x, pos.y);
+                                                                                                    ^~~
+In file included from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/carray.h:19:0,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled_debug.h:1,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/INETDefs.h:25,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/ModuleAccess.h:21,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/base/MobilityBase.h:25,
+                 from ./mobility/TraCIMobility.h:29,
+                 from mobility/TraCIMobility.cc:25:
+/home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/cownedobject.h:114:18: note: declared private here
+     unsigned int pos;  // used only when owner is a cDefaultList
+                  ^~~
+mobility/TraCIMobility.cc:218:30: error: ‘unsigned int omnetpp::cOwnedObject::pos’ is private within this context
+  handleIfOutside(RAISEERROR, pos, dummy, dummy, dum);
+                              ^~~
+In file included from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/carray.h:19:0,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled.h:28,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/precompiled_debug.h:1,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/INETDefs.h:25,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/common/ModuleAccess.h:21,
+                 from /home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src/inet/mobility/base/MobilityBase.h:25,
+                 from ./mobility/TraCIMobility.h:29,
+                 from mobility/TraCIMobility.cc:25:
+/home/vesnos/Vesnos/omnetpp-5.4.1/include/omnetpp/cownedobject.h:114:18: note: declared private here
+     unsigned int pos;  // used only when owner is a cDefaultList
+                  ^~~
+mobility/TraCIMobility.cc:218:35: error: ‘dummy’ was not declared in this scope
+  handleIfOutside(RAISEERROR, pos, dummy, dummy, dum);
+                                   ^~~~~
+mobility/TraCIMobility.cc:218:35: note: suggested alternative: ‘dum’
+  handleIfOutside(RAISEERROR, pos, dummy, dummy, dum);
+                                   ^~~~~
+                                   dum
+mobility/TraCIMobility.cc: At global scope:
+mobility/TraCIMobility.cc:222:1: error: ‘Coord’ does not name a type; did you mean ‘Color’?
+ Coord TraCIMobilityMod::calculateAntennaPosition(const Coord& vehiclePos) const
+ ^~~~~
+ Color
+Makefile:212: recipe for target '../out/gcc-debug/src/mobility/TraCIMobility.o' failed
+make[1]: Leaving directory '/home/vesnos/Desktop/Vesnos_Simu5g/VESNOS/src'
+make[1]: *** [../out/gcc-debug/src/mobility/TraCIMobility.o] Error 1
+make: *** [all] Error 2
+Makefile:2: recipe for target 'all' failed
+
+14:20:09 Build Finished (took 727ms)
+

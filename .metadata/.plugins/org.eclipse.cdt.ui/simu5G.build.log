@@ -1,0 +1,8 @@
+14:20:08 **** Incremental Build of configuration gcc-debug for project simu5G ****
+make MODE=debug -j4 all 
+make[1]: Entering directory '/home/vesnos/Vesnos/omnetpp-5.4.1/samples/Simu5G-1.1.0/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/vesnos/Vesnos/omnetpp-5.4.1/samples/Simu5G-1.1.0/src'
+
+14:20:08 Build Finished (took 120ms)
+

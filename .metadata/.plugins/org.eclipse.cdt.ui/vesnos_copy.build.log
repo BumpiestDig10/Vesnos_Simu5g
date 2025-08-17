@@ -1,0 +1,47 @@
+13:43:09 **** Incremental Build of configuration debug for project vesnos_copy ****
+make MODE=debug -j4 all 
+cd src && make all
+make[1]: Entering directory '/home/vesnos/Desktop/Vesnos_Simu5g/vesnos_copy/src'
+cd loggingWindow && make all
+make[2]: Entering directory '/home/vesnos/Desktop/Vesnos_Simu5g/vesnos_copy/src/loggingWindow'
+make[2]: Entering directory '/home/vesnos/Desktop/Vesnos_Simu5g/vesnos_copy/src/loggingWindow'
+make[2]: Nothing to be done for 'smheaders'.
+make[2]: Nothing to be done for 'msgheaders'.
+make[2]: Leaving directory '/home/vesnos/Desktop/Vesnos_Simu5g/vesnos_copy/src/loggingWindow'
+make[2]: Leaving directory '/home/vesnos/Desktop/Vesnos_Simu5g/vesnos_copy/src/loggingWindow'
+MIXIM_veins/connectionManager/ConnectionManager.cc
+make[2]: Entering directory '/home/vesnos/Desktop/Vesnos_Simu5g/vesnos_copy/src/loggingWindow'
+g++ -o mainWindow main.o mainWindow.o -I. -lpthread -lboost_system -lboost_filesystem `pkg-config gtkmm-3.0 --libs`
+MIXIM_veins/annotations/AnnotationManager.cc
+MIXIM_veins/connectionManager/BaseConnectionManager.cc
+In file included from MIXIM_veins/connectionManager/ConnectionManager.cc:3:0:
+MIXIM_veins/connectionManager/ConnectionManager.h:4:10: fatal error: inet/common/INETDefs.h: No such file or directory
+ #include "inet/common/INETDefs.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [../out/gcc-debug/src/MIXIM_veins/connectionManager/ConnectionManager.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+Makefile:254: recipe for target '../out/gcc-debug/src/MIXIM_veins/connectionManager/ConnectionManager.o' failed
+g++ -o testTCP testTCP.o
+In file included from MIXIM_veins/annotations/AnnotationManager.cc:22:0:
+MIXIM_veins/annotations/AnnotationManager.h:27:10: fatal error: inet/common/FindModule.h: No such file or directory
+ #include "inet/common/FindModule.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from MIXIM_veins/connectionManager/BaseConnectionManager.h:5:0,
+                 from MIXIM_veins/connectionManager/BaseConnectionManager.cc:4:
+MIXIM_veins/connectionManager/NicEntry.h:27:10: fatal error: inet/common/INETDefs.h: No such file or directory
+ #include "inet/common/INETDefs.h"
+          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+make[1]: *** [../out/gcc-debug/src/MIXIM_veins/connectionManager/BaseConnectionManager.o] Error 1
+Makefile:254: recipe for target '../out/gcc-debug/src/MIXIM_veins/connectionManager/BaseConnectionManager.o' failed
+Makefile:254: recipe for target '../out/gcc-debug/src/MIXIM_veins/annotations/AnnotationManager.o' failed
+make[1]: *** [../out/gcc-debug/src/MIXIM_veins/annotations/AnnotationManager.o] Error 1
+make[2]: Leaving directory '/home/vesnos/Desktop/Vesnos_Simu5g/vesnos_copy/src/loggingWindow'
+make[1]: Leaving directory '/home/vesnos/Desktop/Vesnos_Simu5g/vesnos_copy/src'
+Makefile:81: recipe for target 'src_dir' failed
+make: *** [src_dir] Error 2
+
+13:43:10 Build Finished (took 364ms)
+

@@ -1,0 +1,13 @@
+14:20:07 **** Incremental Build of configuration debug for project inet ****
+make MODE=debug -j4 all 
+make[1]: Entering directory '/home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src'
+*** COMPILING with:
+g++ -c -std=c++11 -g -Wall -MMD -MP -MF .d  -fPIC  -fno-stack-protector -DHAVE_SWAPCONTEXT -DWITH_MPI -DXMLPARSER=libxml -DPREFER_QTENV -DWITH_QTENV -DWITH_PARSIM -DWITH_NETBUILDER -DWITH_OSG -DWITH_OSGEARTH -Wno-overloaded-virtual -include inet/common/precompiled_debug.h  -DINET_EXPORT -I. -I/home/vesnos/Vesnos/omnetpp-5.4.1/include
+*** LINKING with:
+g++ -shared -fPIC -o ../out/gcc-debug/src/libINET_dbg.so -Wl,--no-as-needed -Wl,--whole-archive  -Wl,--no-whole-archive -loppenvir_dbg -loppsim_dbg -ldl -lstdc++  -losg -losgText -losgDB -losgGA -losgViewer -losgUtil -lOpenThreads  -losgEarth -losgEarthUtil  -Wl,-rpath,/home/vesnos/Vesnos/omnetpp-5.4.1/lib -Wl,-rpath,/lib -Wl,-rpath,.  -Wl,--export-dynamic -L/home/vesnos/Vesnos/omnetpp-5.4.1/lib
+Building...
+make[1]: Nothing to be done for 'all-pch'.
+make[1]: Leaving directory '/home/vesnos/Vesnos/omnetpp-5.4.1/samples/inet4/src'
+
+14:20:08 Build Finished (took 639ms)
+

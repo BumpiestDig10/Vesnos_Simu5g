@@ -1,0 +1,332 @@
+14:20:05 **** Incremental Build of configuration Default for project VENTOS_SUMO ****
+make -j4 all 
+Making all in src
+make[1]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src'
+make  all-recursive
+make[2]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src'
+Making all in foreign
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign'
+Making all in eulerspiral
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/eulerspiral'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/eulerspiral'
+Making all in mersenne
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/mersenne'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/mersenne'
+Making all in tcpip
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/tcpip'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/tcpip'
+Making all in PHEMlight
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/PHEMlight'
+Making all in cpp
+make[5]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/PHEMlight/cpp'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/PHEMlight/cpp'
+make[5]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/PHEMlight'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/PHEMlight'
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/PHEMlight'
+Making all in gl2ps
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/gl2ps'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/gl2ps'
+Making all in polyfonts
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/polyfonts'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/polyfonts'
+Making all in rtree
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/rtree'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign/rtree'
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign'
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/foreign'
+Making all in utils
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils'
+Making all in common
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/common'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/common'
+Making all in distribution
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/distribution'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/distribution'
+Making all in emissions
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/emissions'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/emissions'
+Making all in geom
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/geom'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/geom'
+Making all in importio
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/importio'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/importio'
+Making all in iodevices
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/iodevices'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/iodevices'
+Making all in options
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/options'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/options'
+Making all in shapes
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/shapes'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/shapes'
+Making all in vehicle
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/vehicle'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/vehicle'
+Making all in xml
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/xml'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/xml'
+Making all in foxtools
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/foxtools'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/foxtools'
+Making all in gui
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui'
+Making all in div
+make[5]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui/div'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui/div'
+Making all in events
+make[5]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui/events'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui/events'
+Making all in globjects
+make[5]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui/globjects'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui/globjects'
+Making all in images
+make[5]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui/images'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui/images'
+Making all in settings
+make[5]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui/settings'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui/settings'
+Making all in tracker
+make[5]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui/tracker'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui/tracker'
+Making all in windows
+make[5]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui/windows'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui/windows'
+make[5]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui'
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/gui'
+Making all in traci
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/traci'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils/traci'
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils'
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/utils'
+Making all in microsim
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim'
+Making all in actions
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/actions'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/actions'
+Making all in cfmodels
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/cfmodels'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/cfmodels'
+Making all in devices
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/devices'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/devices'
+Making all in lcmodels
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/lcmodels'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/lcmodels'
+Making all in logging
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/logging'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/logging'
+Making all in output
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/output'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/output'
+Making all in pedestrians
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/pedestrians'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/pedestrians'
+Making all in traffic_lights
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/traffic_lights'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/traffic_lights'
+Making all in trigger
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/trigger'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim/trigger'
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim'
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/microsim'
+Making all in router
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/router'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/router'
+Making all in od
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/od'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/od'
+Making all in marouter
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/marouter'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/marouter'
+Making all in mesosim
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/mesosim'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/mesosim'
+Making all in netbuild
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netbuild'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netbuild'
+Making all in netwrite
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netwrite'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netwrite'
+Making all in netgen
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netgen'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netgen'
+Making all in netimport
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netimport'
+make  all-recursive
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netimport'
+Making all in vissim
+make[5]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netimport/vissim'
+Making all in tempstructs
+make[6]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netimport/vissim/tempstructs'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netimport/vissim/tempstructs'
+Making all in typeloader
+make[6]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netimport/vissim/typeloader'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netimport/vissim/typeloader'
+make[6]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netimport/vissim'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netimport/vissim'
+make[5]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netimport/vissim'
+make[5]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netimport'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netimport'
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netimport'
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netimport'
+Making all in netload
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netload'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netload'
+Making all in polyconvert
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/polyconvert'
+make  all-am
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/polyconvert'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/polyconvert'
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/polyconvert'
+Making all in dfrouter
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/dfrouter'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/dfrouter'
+Making all in duarouter
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/duarouter'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/duarouter'
+Making all in jtrrouter
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/jtrrouter'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/jtrrouter'
+Making all in activitygen
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/activitygen'
+Making all in activities
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/activitygen/activities'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/activitygen/activities'
+Making all in city
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/activitygen/city'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/activitygen/city'
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/activitygen'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/activitygen'
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/activitygen'
+Making all in tools
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/tools'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/tools'
+Making all in traci-server
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/traci-server'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/traci-server'
+Making all in traci_testclient
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/traci_testclient'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/traci_testclient'
+Making all in gui
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/gui'
+Making all in dialogs
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/gui/dialogs'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/gui/dialogs'
+make[4]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/gui'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/gui'
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/gui'
+Making all in guinetload
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/guinetload'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/guinetload'
+Making all in guisim
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/guisim'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/guisim'
+Making all in netedit
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netedit'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/netedit'
+Making all in mesogui
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/mesogui'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/mesogui'
+Making all in osgview
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/osgview'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src/osgview'
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src'
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src'
+make[2]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src'
+make[1]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/src'
+Making all in unittest
+make[1]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/unittest'
+Making all in src
+make[2]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/unittest/src'
+make[3]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/unittest/src'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/unittest/src'
+make[2]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/unittest/src'
+make[2]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/unittest'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/unittest'
+make[1]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/unittest'
+Making all in bin
+make[1]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/bin'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public/bin'
+make[1]: Entering directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/vesnos/Vesnos/VENTOS_SUMO_Public'
+
+14:20:06 Build Finished (took 971ms)
+

@@ -1,0 +1,6 @@
+examples/veins
+src/veins
+subprojects/veins_catch
+subprojects/veins_inet
+subprojects/veins_inet3
+subprojects/veins_testsims

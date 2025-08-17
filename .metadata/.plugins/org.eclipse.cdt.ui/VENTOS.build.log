@@ -1,0 +1,9 @@
+15:14:53 **** Build of configuration debug for project VENTOS ****
+make MODE=debug all 
+cd src && make
+make[1]: Entering directory '/home/vesnos/Desktop/Vesnos_Simu5g/VENTOS/src'
+Creating executable: ../out/gcc-debug/src/VENTOS_dbg
+make[1]: Leaving directory '/home/vesnos/Desktop/Vesnos_Simu5g/VENTOS/src'
+
+15:14:55 Build Finished (took 1s.339ms)
+

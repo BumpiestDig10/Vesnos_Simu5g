@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;VENTOS/simulations&apos; to &apos;examples&apos;" description="Rename resource &apos;simulations&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="simulations" name="examples" stamp="1754429740220" updateReferences="true"/>
+</session>

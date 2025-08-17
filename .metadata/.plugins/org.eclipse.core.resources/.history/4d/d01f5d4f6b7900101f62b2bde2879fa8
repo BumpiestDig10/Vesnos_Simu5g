@@ -1,0 +1,21 @@
+cplusplus {{
+	#include "inet/common/INETDefs.h"
+	#include "inet/common/geometry/common/Coord.h"
+}}
+
+namespace VENTOS;
+
+class inet::Coord {@existingClass;};
+
+packet BeaconBicycle extends Packet
+{
+    string sender;
+    string senderType;
+    string recipient;
+    inet::Coord pos;
+    double speed;
+    double accel;
+    double maxDecel;
+    string lane;
+    double angle;
+};
